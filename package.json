@@ -1,0 +1,40 @@
+{
+  "name": "rxjs-train",
+  "version": "1.0.0",
+  "description": "rxjs-train",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack-dev-server --config webpack.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxuewen/rxjs-train.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuxuewen/rxjs-train/issues"
+  },
+  "homepage": "https://github.com/xuxuewen/rxjs-train#readme",
+  "devDependencies": {
+    "@reactivex/rxjs": "^6.4.0",
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/node": "^11.11.0",
+    "@types/webpack": "^4.4.25",
+    "@types/webpack-dev-server": "^3.1.4",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}
